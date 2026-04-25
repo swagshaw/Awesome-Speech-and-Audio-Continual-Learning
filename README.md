@@ -4,6 +4,9 @@
 
 [![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=for-the-badge&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome) [![Survey](https://img.shields.io/badge/Survey-IEEEtran-A42C25?style=for-the-badge&logo=latex&logoColor=white)](../ieee_main.pdf) [![BibTeX](https://img.shields.io/badge/BibTeX-reference.bib-1F4E79?style=for-the-badge)](reference.bib)
 
+<br>
+<img src="./overview.png" alt="Overview diagram of continual learning for speech and audio" width="100%">
+
 </div>
 
 > A curated paper list for continual learning in speech and audio, covering ASR, TTS, speaker-related tasks, audio classification, SED/SELD, deepfake detection, speech SSL, and speech LLMs.
