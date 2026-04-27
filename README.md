@@ -1,23 +1,25 @@
 <div align="center">
 
-## Awesome Speech and Audio Continual Learning
 
-[![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=for-the-badge&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome) [![Survey](https://img.shields.io/badge/Survey-IEEEtran-A42C25?style=for-the-badge&logo=latex&logoColor=white)](../ieee_main.pdf) [![BibTeX](https://img.shields.io/badge/BibTeX-reference.bib-1F4E79?style=for-the-badge)](reference.bib)
+  ## Awesome Speech and Audio Continual Learning
+
+[![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=for-the-badge&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome) [![Survey](https://img.shields.io/badge/Survey--ArXiv-A42C25?style=for-the-badge&logo=latex&logoColor=white)](../ieee_main.pdf) [![Github](https://img.shields.io/badge/Awesome--CL--for--Speech--and--Audio-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swagshaw/Awesome-Speech-and-Audio-Continual-Learning/)
 
 <br>
-<img src="./overview.png" alt="Overview diagram of continual learning for speech and audio" width="100%">
+<img src="CL speech.png" style="width: 68%;"/>
+
 
 </div>
 
-> A curated paper list for continual learning in speech and audio, covering ASR, TTS, speaker-related tasks, audio classification, SED/SELD, deepfake detection, speech SSL, and speech LLMs.
+> A curated paper list for continual learning in speech and audio, covering ASR, TTS, speaker-related tasks, audio classification, SED/SELD, deepfake detection, speech SSL, and speech LLMs. We welcome everyone to open an issue for any related work we haven’t discussed, and we’ll try to address it in the next release!
 
 ## News
 
-- **[2026-04-25]** Initial release of the awesome list accompanying the survey draft.
+- **[2026-04-25]** 🔥 We are excited to introduce a collection of papers on CL for speech and audio models!
 
 ## Citation
 
-If you find this list helpful, please cite the accompanying survey draft:
+If you find this list helpful, please cite our work:
 
 ```bibtex
 @article{speech_audio_cl_survey_2026,
@@ -29,8 +31,8 @@ If you find this list helpful, please cite the accompanying survey draft:
 
 ## Contents
 
-- [Overview](#overview)
-- [Paper List](#paper-list)
+- [📖 Overview](#overview)
+- [📄 Paper List](#paper-list)
   - [Foundations, Surveys, and Benchmarks](#foundations-surveys-and-benchmarks)
   - [ASR: Domain, Acoustic Models, and End-to-End Learning](#asr-domain-acoustic-models-and-end-to-end-learning)
   - [ASR: Online, On-device, and Deployment-oriented Learning](#asr-online-on-device-and-deployment-oriented-learning)
@@ -45,15 +47,15 @@ If you find this list helpful, please cite the accompanying survey draft:
   - [Audio Deepfake Detection](#audio-deepfake-detection)
   - [Audio Captioning, Separation, Enhancement, and Audio-Text Learning](#audio-captioning-separation-enhancement-and-audio-text-learning)
 
-## Overview
-
+## 📖 Overview
+<img src="./overview.png" alt="Overview diagram of continual learning for speech and audio" width="90%">
 This list follows the taxonomy used in the survey:
 
 1. **Settings:** domain-, class-, task-, online-, and model-scale continual learning.
 2. **Method families:** regularization, replay, architecture-based methods, PEFT, averaging, continual pretraining, and multimodal post-training.
 3. **Tasks:** speech recognition and synthesis, speaker-aware interfaces, environmental audio, event detection, deepfake detection, and speech-capable foundation models.
 
-## Paper List
+## 📄 Paper List
 
 ### Foundations, Surveys, and Benchmarks
 
@@ -268,4 +270,8 @@ This list follows the taxonomy used in the survey:
 
 ## Acknowledgment
 
-This list is generated from the survey bibliography and will be updated as the survey evolves.
+We are deeply grateful to all contributors for their efforts, and we sincerely thank them for their interest in **Awesome Speech and Audio Continual Learning**. 
+
+## ✨ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=swagshaw/Awesome-Speech-and-Audio-Continual-Learning&type=Date)](https://www.star-history.com/#swagshaw/Awesome-Speech-and-Audio-Continual-Learning&Date)
